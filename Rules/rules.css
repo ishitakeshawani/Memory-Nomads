@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@400&family=Patrick+Hand&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mali", cursive;
+}
+
+:root {
+  --bgcolor: #edf2f4;
+  --gray: #8d99ae;
+  --primary-color: #2b2d42;
+  --white: #ffffff;
+  --red: #ef233c;
+}
+
+body {
+  background-color: var(--bgcolor);
+  width: 100%;
+}
+
+.quiz-rule-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  padding: 0px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  top: 0;
+  left: 0;
+}
+
+.nav-link {
+  color: var(--white);
+  font-size: 1rem;
+  border-bottom: none;
+  transition: border-bottom 3s;
+}
+
+.nav-link:hover {
+  color: var(--white);
+  border-bottom: 2px solid var(--white);
+}
+
+.nav-logo {
+  color: var(--white);
+  font-size: 1.8rem;
+  font-family: "Mali", cursive;
+}
+
+.nav-logo:hover {
+  color: var(--gray);
+  border: none;
+}
+
+.quiz-rule-title {
+  font-size: 2rem;
+  color: var(--gray);
+  margin: 1rem 0;
+}
+
+.quiz-rules {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--primary-color);
+  margin: 2rem 2rem 7rem 2rem;
+  background-color: var(--white);
+  border-radius: 10px;
+  width: 50%;
+}
+
+.quiz-rules-list p {
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.start-quiz-btn {
+  background-color: var(--red);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin: 0.7rem 0.7rem 2rem 0.7rem;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.1rem;
+  word-spacing: 3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icon {
+  color: var(--bg-color);
+}
+
+.footer-social-icon {
+  color: var(--white);
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+
+@media only screen and (max-width: 43rem) {
+    .quiz-rules{
+        width: 80%;
+    }
+    .quiz-rules-list p{
+        font-size: 1rem;
+    }
+    .quiz-rule-title{
+        font-size: 1.5rem;
+    }
+}
