@@ -19,7 +19,14 @@
       href="https://felizui.netlify.app/styles/index.css"
     />
     <link rel="stylesheet" href="/utils.css" />
-    <link rel="stylesheet" href="/Questionspage/questionspage.css" />
+    <link rel="stylesheet" href="/Resultpage/resultpage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Memory Nomads</title>
   </head>
 
@@ -34,29 +41,32 @@
       </div>
     </nav>
 
-    <div class="questions-page flex-col">
-      <div class="questions-page-title">Death Note Quiz</div>
-      <div class="question flex-col">
-        <div class="questions-number-score flex-row">
-          <div>Questions : 1/5</div>
-          <div class="score">Score: 10</div>
+    <div class="result-page flex-col">
+      <div class="result-page-title">Quiz Result</div>
+      <div class="result-desc">Yess! you did well 🎉</div>
+      <div class="your-score">Your final score : 10/50</div>
+      <div class="questions flex-col">
+        <div class="question flex-col">
+          <div class="question-name">
+            1. What is the main character's full name?
+          </div>
+          <div class="options">
+            <div class="option">Misa Amane</div>
+            <div class="option right-ans">Light Yagami</div>
+            <div class="option">Near</div>
+            <div class="option">L</div>
+          </div>
         </div>
-        <div class="question-title">
-          What is the main character's full name?
-        </div>
-        <div class="quiz-options flex-col">
-          <div class="option">Misa Amane</div>
-          <div class="option">Light Yagami</div>
-          <div class="option">Near</div>
-          <div class="option">L</div>
-        </div>
-        <div class="back-next-link flex-row">
-          <a class="link-no-style goback-link" href="/Rules/rules.html"
-            ><i class="fa fa-arrow-left mr-1"></i> previous</a
-          >
-          <a class="link-no-style next-link" href="/Resultpage/resultpage.html">
-            next <i class="fa fa-arrow-right ml-1"></i
-          ></a>
+        <div class="question flex-col">
+          <div class="question-name">
+            2. What is the favorite food of Light's Shinigami, Ryuk?
+          </div>
+          <div class="options">
+            <div class="option right-ans">Red apples</div>
+            <div class="option">Grapes</div>
+            <div class="option">oranges</div>
+            <div class="option wrong-ans">Pineapple</div>
+          </div>
         </div>
       </div>
     </div>
