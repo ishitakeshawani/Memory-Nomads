@@ -55,14 +55,17 @@
 .goback-link,
 .next-link {
   color: var(--primary-link);
-  padding: 0.2rem 0.7rem;
+  padding: 0.2rem 0.2rem;
   background: var(--white);
   border-radius: 1px;
+  width: 21%;
+  text-align: center;
 }
 
 .goback-link:hover,
 .next-link:hover {
-  text-decoration: underline;
+  background: var(--gray);
+  opacity: 0.8;
 }
 
 @media only screen and (max-width: 43em) {
