@@ -1,59 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mali:wght@400&family=Patrick+Hand&family=Roboto&display=swap");
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Mali", cursive;
-}
-
-:root {
-  --bgcolor: #edf2f4;
-  --gray: #8d99ae;
-  --primary-color: #2b2d42;
-  --white: #ffffff;
-  --red: #ef233c;
-}
-
-body {
-  background-color: var(--bgcolor);
-  width: 100%;
-}
-
 .quiz-rule-page {
   flex-direction: column;
-}
-
-.navbar {
-  padding: 0px;
-  background-color: var(--primary-color);
-  color: var(--white);
-  top: 0;
-  left: 0;
-}
-
-.nav-link {
-  color: var(--white);
-  font-size: 1rem;
-  border-bottom: none;
-  transition: border-bottom 3s;
-}
-
-.nav-link:hover {
-  color: var(--white);
-  border-bottom: 2px solid var(--white);
-}
-
-.nav-logo {
-  color: var(--white);
-  font-size: 1.8rem;
-  font-family: "Mali", cursive;
-}
-
-.nav-logo:hover {
-  color: var(--gray);
-  border: none;
+  margin: 5rem 0 0 0;
 }
 
 .quiz-rule-title {
@@ -86,15 +33,14 @@ body {
   margin: 0.7rem 0.7rem 2rem 0.7rem;
 }
 
-
 @media only screen and (max-width: 43rem) {
-    .quiz-rules{
-        width: 80%;
-    }
-    .quiz-rules-list p{
-        font-size: 1rem;
-    }
-    .quiz-rule-title{
-        font-size: 1.5rem;
-    }
+  .quiz-rules {
+    width: 80%;
+  }
+  .quiz-rules-list p {
+    font-size: 1rem;
+  }
+  .quiz-rule-title {
+    font-size: 1.5rem;
+  }
 }

@@ -1,3 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@200&family=Patrick+Hand&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mali", cursive;
+}
+
+:root {
+  --bgcolor: #edf2f4;
+  --gray: #8d99ae;
+  --primary-color: #2b2d42;
+  --white: #ffffff;
+  --red: #ef233c;
+}
+
+body {
+  background-color: var(--bgcolor);
+  width: 100%;
+}
+
+.quiz-home-page {
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+.home-page-title {
+  font-family: "Patrick Hand", cursive;
+  font-size: 3rem;
+  color: var(--gray);
+}
+
+.navbar {
+  padding: 0px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav-link {
+  color: var(--white);
+  font-size: 1rem;
+  border-bottom: none;
+  transition: border-bottom 3s;
+}
+
+.nav-link:hover {
+  color: var(--white);
+  border-bottom: 2px solid var(--white);
+}
+
+.nav-logo {
+  color: var(--white);
+  font-size: 1.8rem;
+  font-family: "Mali", cursive;
+}
+
+.nav-logo:hover {
+  color: var(--gray);
+  border: none;
+}
+
 .flex-row {
   display: flex;
   justify-content: center;
