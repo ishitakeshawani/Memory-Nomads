@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mali:wght@200&family=Patrick+Hand&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@400&family=Patrick+Hand&family=Roboto&display=swap");
 
 * {
   padding: 0;
@@ -66,6 +66,13 @@ body {
 
 .flex-row {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
