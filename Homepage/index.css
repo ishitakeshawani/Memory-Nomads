@@ -1,3 +1,7 @@
+.quiz-home-page{
+  justify-content: space-around;
+}
+
 .explore-btn {
   background-color: var(--primary-color);
   color: var(--white);
@@ -53,7 +57,7 @@
   }
   .quiz-home-page {
     flex-direction: column;
-    margin: 1rem;
+    margin: 5rem 1rem 1rem 1rem;
   }
   h5 {
     font-size: 1rem;
