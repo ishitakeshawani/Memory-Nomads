@@ -1,4 +1,4 @@
-.quiz-home-page{
+.quiz-home-page {
   justify-content: space-around;
 }
 
@@ -47,27 +47,38 @@
   opacity: 1;
 }
 
+.homepage-img {
+  height: 25rem;
+  width: 25rem;
+}
+
 @media only screen and (max-width: 43em) {
-  img {
+  .homepage-img {
     width: 15rem;
   }
+
   .home-page-title {
     font-size: 1.5rem;
     text-align: center;
   }
+
   .quiz-home-page {
     flex-direction: column;
     margin: 5rem 1rem 1rem 1rem;
   }
+
   h5 {
     font-size: 1rem;
   }
+
   .featured-categories {
     flex-direction: column;
   }
+
   .heading-font {
     font-size: 1.5rem;
   }
+
   .feature-category-item {
     font-size: 1rem;
     width: 12rem;
