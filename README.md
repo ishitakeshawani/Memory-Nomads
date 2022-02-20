@@ -9,7 +9,7 @@
 </div>
 
 <h3 align="center">
-          Live Project : https://memorynomads.netlify.app/index.html
+          Live Project : https://memorynomads.netlify.app/
 </h3>
 <br />
 
@@ -56,14 +56,16 @@ Memory Nomads is an online quiz web application. Which have three different type
   <br />
 
 ## UI of the Website
+   Click on the image to watch it.
 
-|![Screenshot (120)](https://user-images.githubusercontent.com/50510726/154857606-4b2e95ed-c875-4142-8294-3409e4e65be3.png)|![Screenshot (121)](https://user-images.githubusercontent.com/50510726/154857671-ec467861-4f19-4191-bda1-a63244de9d9d.png)| 
+|![Screenshot (126)](https://user-images.githubusercontent.com/50510726/154858668-ef97e325-c4d1-4a07-b0c8-13a7660cdff6.png)|![Screenshot (127)](https://user-images.githubusercontent.com/50510726/154858695-d90b99cf-e901-42b7-9073-efd76b781929.png)|
 |-|-|
-| Home Page | Products listing Page |  
-| ![Screenshot (122)](https://user-images.githubusercontent.com/50510726/154857723-d871c70a-f355-4bba-a36e-59c8c9fef905.png) | ![Screenshot (123)](https://user-images.githubusercontent.com/50510726/154857741-fb77d45f-eeb2-4128-954f-07939a97ac88.png) |
-| Wishlist Page | Cart Page|
-| ![Screenshot (124)](https://user-images.githubusercontent.com/50510726/154857801-76408251-5ff6-4e76-8906-2e2fd40f7ca7.png) | ![Screenshot (125)](https://user-images.githubusercontent.com/50510726/154857847-e7f76c63-c669-4a35-9867-27d61f38400b.png) |
-| Login Page | Signup Page |
+| Home Page | Quiz Category Page |  
+|![Screenshot (128)](https://user-images.githubusercontent.com/50510726/154859238-9adb9684-ed45-4cc6-9a6b-6b2c0ebf661d.png)|![Screenshot (129)](https://user-images.githubusercontent.com/50510726/154858773-d8e038fc-c45f-41ac-8a3d-6b0d5c0e7fbb.png) |
+|-|-|
+| Rules Page | Questions Page|
+| ![Screenshot (130)](https://user-images.githubusercontent.com/50510726/154859388-d19daf3e-2f16-4140-b7b0-2c28f68ea70e.png)|
+| Result Page |
 
 
 <br/>
